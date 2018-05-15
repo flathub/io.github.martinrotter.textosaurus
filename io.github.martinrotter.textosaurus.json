@@ -25,6 +25,7 @@
     "modules": [
         {
             "config-opts": [
+                "-r",
                 "QMAKE_CXX=/usr/lib/sdk/gcc7/bin/g++",
                 "CONFIG+=release",
                 "CONFIG+=FLATPAK_MODE"
@@ -33,9 +34,9 @@
             "name": "textosaurus",
             "sources": [
                 {
-                    "branch": "0.9.4",
+                    "branch": "0.9.5",
                     "type": "git",
-                    "commit": "82c0c0a3bdef33f60435a3e3d8ba55086e39db57",
+                    "commit": "2103ebd7e8cd726ed8c067cf65db0f926b16131d",
                     "url": "git://github.com/martinrotter/textosaurus.git"
                 }
             ]
