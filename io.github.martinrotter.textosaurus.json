@@ -34,9 +34,9 @@
             "name": "textosaurus",
             "sources": [
                 {
-                    "branch": "0.9.5",
+                    "branch": "0.9.6",
                     "type": "git",
-                    "commit": "2103ebd7e8cd726ed8c067cf65db0f926b16131d",
+                    "commit": "2246dea95e48330014e6543f1b94af4bbf2d1bd0",
                     "url": "git://github.com/martinrotter/textosaurus.git"
                 }
             ]
