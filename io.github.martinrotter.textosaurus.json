@@ -2,7 +2,7 @@
     "app-id": "io.github.martinrotter.textosaurus",
     "rename-icon": "textosaurus",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
     "command": "textosaurus",
     "finish-args": [
@@ -28,6 +28,10 @@
                     "type": "git",
                     "commit": "9cb706472b966bd81d2cb7bcbd2555da6dbc76c7",
                     "url": "git://github.com/martinrotter/textosaurus.git"
+                },
+                {
+                    "type": "patch",
+                    "path": "qclose.patch"
                 }
             ]
         }

@@ -1,0 +1,24 @@
+diff --git a/src/libtextosaurus/saurus/gui/editortab.cpp b/src/libtextosaurus/saurus/gui/editortab.cpp
+index 1b964b57..77c54634 100644
+--- a/src/libtextosaurus/saurus/gui/editortab.cpp
++++ b/src/libtextosaurus/saurus/gui/editortab.cpp
+@@ -7,6 +7,7 @@
+ #include "saurus/miscellaneous/application.h"
+ #include "saurus/miscellaneous/textapplication.h"
+ 
++#include <QCloseEvent>
+ #include <QLayout>
+ 
+ EditorTab::EditorTab(TextApplication* text_app, TextEditor* editor)
+diff --git a/src/libtextosaurus/saurus/miscellaneous/textapplication.cpp b/src/libtextosaurus/saurus/miscellaneous/textapplication.cpp
+index f779c695..ef75c67c 100644
+--- a/src/libtextosaurus/saurus/miscellaneous/textapplication.cpp
++++ b/src/libtextosaurus/saurus/miscellaneous/textapplication.cpp
+@@ -26,6 +26,7 @@
+ 
+ #include <QClipboard>
+ #include <QDockWidget>
++#include <QDropEvent>
+ #include <QFileDialog>
+ #include <QIcon>
+ #include <QLineEdit>
