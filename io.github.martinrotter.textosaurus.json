@@ -32,6 +32,10 @@
                 {
                     "type": "patch",
                     "path": "qclose.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "textosaurus-fixes.diff"
                 }
             ]
         }
