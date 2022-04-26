@@ -24,14 +24,18 @@
             "name": "textosaurus",
             "sources": [
                 {
-                    "branch": "0.9.13",
                     "type": "git",
-                    "commit": "9cb706472b966bd81d2cb7bcbd2555da6dbc76c7",
-                    "url": "git://github.com/martinrotter/textosaurus.git"
+                    "url": "https://github.com/martinrotter/textosaurus.git",
+                    "tag": "0.9.13",
+                    "commit": "9cb706472b966bd81d2cb7bcbd2555da6dbc76c7"
                 },
                 {
                     "type": "patch",
                     "path": "qclose.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "textosaurus-fixes.diff"
                 }
             ]
         }
